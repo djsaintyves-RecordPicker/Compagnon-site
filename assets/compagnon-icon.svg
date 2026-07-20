@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img">
+  <title>Icône Compagnon</title>
+  <rect width="240" height="240" rx="54" fill="#d85a30"/>
+  <g fill="none" stroke="#fff" stroke-width="2.2" opacity=".94">
+    <path d="M99 20v80M125 20v80M151 20v80M177 20v80"/>
+    <path d="M99 20h104M99 46.7h104M99 73.3h104M99 100h104"/>
+  </g>
+  <g fill="#fff" opacity=".28">
+    <path d="M125 20h26v26.7h-26zM177 46.7h26v26.6h-26zM99 73.3h26V100H99z"/>
+  </g>
+  <path d="m52 145 52 29-52 29" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-width="11"/>
+  <rect x="116" y="198" width="38" height="11" rx="2" fill="#fff"/>
+</svg>

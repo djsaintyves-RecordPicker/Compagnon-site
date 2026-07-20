@@ -4,6 +4,7 @@ Site statique minimal pour présenter Compagnon et fournir les URL publiques
 nécessaires à sa diffusion :
 
 - accueil et positionnement du produit ;
+- identité visuelle et aperçu de marque ;
 - politique de confidentialité ;
 - assistance et consignes de signalement.
 

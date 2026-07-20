@@ -68,19 +68,11 @@ a {
   text-decoration: none;
 }
 
-.brand-mark {
+.brand-icon {
+  display: block;
   width: 2.15rem;
   height: 2.15rem;
-  display: inline-grid;
-  place-items: center;
-  border: 1.5px solid var(--ink);
-  border-radius: 50%;
-  font-family: "SF Mono", ui-monospace, monospace;
-  font-size: 0.95rem;
-}
-
-.brand-mark span {
-  color: var(--accent);
+  border-radius: 0.48rem;
 }
 
 .site-header nav,
@@ -223,6 +215,37 @@ h1 {
   background: var(--warm);
 }
 
+.brand-visual {
+  margin: 0 0 7rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #d85a30;
+}
+
+.brand-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.brand-visual figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0;
+  padding: 1rem 1.2rem;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.brand-visual figcaption span {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .principle,
 .local-first,
 .boundary {
@@ -348,10 +371,10 @@ footer > div:first-child p {
   color: var(--ink);
 }
 
-.brand.compact .brand-mark {
+.brand.compact .brand-icon {
   width: 1.8rem;
   height: 1.8rem;
-  font-size: 0.75rem;
+  border-radius: 0.4rem;
 }
 
 .copyright {
@@ -502,6 +525,16 @@ footer > div:first-child p {
   .hero::after {
     right: -18rem;
     opacity: 0.55;
+  }
+
+  .brand-visual {
+    margin-bottom: 5rem;
+  }
+
+  .brand-visual figcaption {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
   }
 
   h1 {
